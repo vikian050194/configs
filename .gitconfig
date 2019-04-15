@@ -1,0 +1,75 @@
+[user]
+	name = Kirill Vinogradov
+	email = vikian050194@gmail.com
+[core]
+	editor = notepad.exe
+	excludesfile = C:\\Users\\KirillV\\.gitignore_global
+	preloadindex = true
+	fscache = true
+	autocrlf = true
+[color]
+	ui = true
+[alias]
+	lg = log --graph --decorate --oneline
+	lga = log --graph --decorate --oneline --all
+	lgt = log --graph --decorate --oneline -10
+	st = status -s
+	cm = "!f() { git commit -m\"$1\"; }; f"
+	cma = "!f() { git commit -a -m\"$1\"; }; f"
+	acm = "!f() { git add . && git commit -m\"$1\"; }; f"
+	cmap = "!f() { git commit -a -m\"$1\" && git push; }; f"
+	acmp = "!f() { git add . && git commit -a -m\"$1\" && git push; }; f"
+	acmt = "!f() { git add . && git commit -m\"Temp commit\"; }; f"
+	ch = checkout
+	chb = "!f() { git checkout -b\"$1\"; }; f"
+	chm = checkout master
+	pu = "!f() { name=`git symbolic-ref HEAD --short`; git push --set-upstream origin $name; }; f"
+	rbm = rebase master
+	mm = merge master
+	mom = "!f() { git fetch origin master && git merge origin/master; }; f"
+	fm = "!f() { git fetch origin master && git merge origin/master; }; f"
+	rm = "!f() { git fetch origin master && git rebase origin/master; }; f"
+	mt = mergetool
+	dt = difftool
+	cl = clean -f
+	ss = stash save
+	sa = stash apply
+	sp = stash pop
+	sl = stash list
+	sd = stash drop stash@{0}
+	rhh = reset --hard HEAD
+	rh = reset --hard
+	rs = reset --soft
+	rsh = reset --soft HEAD
+	undo = reset --soft HEAD~
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[push]
+	default = simple
+[diff]
+	tool = meld
+	guitool = meld
+[difftool]
+	prompt = true
+[merge]
+	tool = meld
+	guitool = meld
+[mergetool]
+	prompt = true
+	keepBackup = false
+[difftool "meld"]
+	cmd = \"C:/Program Files (x86)/Meld/Meld.exe\" \"$LOCAL\" \"$REMOTE\"
+	trustexistcode = true
+	path = C:/Program Files (x86)/Meld/Meld.exe
+[mergetool "meld"]
+	cmd = \"C:/Program Files (x86)/Meld/Meld.exe\" \"$REMOTE\" \"$MERGED\" \"$LOCAL\"
+	trustexistcode = true
+	path = C:/Program Files (x86)/Meld/Meld.exe
+[pull]
+	rebase = false
+[fetch]
+	prune = false
+[rebase]
+	autoStash = false
