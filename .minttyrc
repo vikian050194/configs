@@ -1,0 +1,8 @@
+BoldAsFont=-1
+Transparency=off
+CursorType=underscore
+Font=Courier New
+FontHeight=16
+FontWeight=400
+FontIsBold=no
+Term=xterm
