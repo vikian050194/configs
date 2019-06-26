@@ -16,12 +16,12 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
+    "peacock.affectTitleBar": true,
     "peacock.affectActivityBar": true,
     "peacock.affectStatusBar": true,
-    "peacock.affectTitleBar": true,
     "peacock.surpriseMeOnStartup": true,
     "peacock.elementAdjustments": {
-        "titleBar": "none",
+        "titleBar": "darken",
         "activityBar": "darken",
         "statusBar": "darken"
     },
