@@ -14,6 +14,7 @@
 	lga = log --graph --decorate --oneline --all
 	lgt = log --graph --decorate --oneline -10
 	st = status -s
+	ca = commit --amend
 	cm = "!f() { git commit -m\"$1\"; }; f"
 	cma = "!f() { git commit -a -m\"$1\"; }; f"
 	acm = "!f() { git add . && git commit -m\"$1\"; }; f"
@@ -25,10 +26,12 @@
 	chb = "!f() { git checkout -b\"$1\"; }; f"
 	chm = checkout master
 	pu = "!f() { name=`git symbolic-ref HEAD --short`; git push --set-upstream origin $name; }; f"
+	p = push
+	pf = push -f
 	rbm = rebase master
 	mm = merge master
-	fm = "!f() { git fetch origin master && git merge origin/master; }; f"
-	rm = "!f() { git fetch origin master && git rebase origin/master; }; f"
+	fmm = "!f() { git fetch origin master && git merge origin/master; }; f"
+	frm = "!f() { git fetch origin master && git rebase origin/master; }; f"
 	mt = mergetool
 	dt = difftool
 	cl = clean -f
