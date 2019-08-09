@@ -16,10 +16,13 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "peacock.affectTitleBar": true,
-    "peacock.affectActivityBar": true,
+    "peacock.affectActivityBar": false,
     "peacock.affectStatusBar": true,
+    "peacock.affectTitleBar": true,
+    "peacock.affectTabActiveBorder": true,
     "peacock.surpriseMeOnStartup": true,
+    "peacock.surpriseMeFromFavoritesOnly": true,
+    "peacock.showColorInStatusBar": false,
     "peacock.elementAdjustments": {
         "titleBar": "darken",
         "activityBar": "darken",
