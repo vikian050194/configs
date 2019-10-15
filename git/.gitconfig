@@ -10,18 +10,22 @@
 [color]
 	ui = true
 [alias]
+	lo = log --oneline
 	lg = log --graph --decorate --oneline
 	la = log --graph --decorate --oneline --all
 	lt = log --graph --decorate --oneline -10
 	st = status -s
+	ds = diff --stat
 	ap = add -p
 	ca = commit --amend
 	cm = commit
 	ch = checkout
-	cb = "!f() { git checkout -b\"$1\"; }; f"
-	cm = checkout master
+	chb = "!f() { git checkout -b\"$1\"; }; f"
+	chm = checkout master
 	pu = "!f() { name=`git symbolic-ref HEAD --short`; git push --set-upstream origin $name; }; f"
-	p = push
+	pl = pull
+	pr = pull --rebase
+	ph = push
 	pf = push -f
 	mem = merge master
 	fmem = "!f() { git fetch origin master && git merge origin/master; }; f"
@@ -31,7 +35,7 @@
 	dt = difftool
 	cl = clean -f
 	sl = stash list
-	sd = stash drop stash@{0}
+	sd = "!f() { git stash drop \"stash@{$1}\"; }; f"
 	rhh = reset --hard HEAD
 	rh = reset --hard
 	undo = reset --soft HEAD~
