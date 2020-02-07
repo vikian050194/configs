@@ -2,11 +2,11 @@
 	name = Kirill Vinogradov
 	email = vikian050194@gmail.com
 [core]
-	excludesfile = C:\\Users\\KirillV\\.gitignore_global
+	excludesfile = /home/kirill/.gitignore_global
 	preloadindex = true
 	fscache = true
-	autocrlf = true
-	editor = vim
+	autocrlf = false
+	editor = nano
 [color]
 	ui = true
 [alias]
@@ -50,21 +50,19 @@
 	tool = meld
 	guitool = meld
 [difftool]
-	prompt = true
+	prompt = false
 [merge]
 	tool = meld
 	guitool = meld
 [mergetool]
-	prompt = true
+	prompt = false
 	keepBackup = false
 [difftool "meld"]
-	cmd = \"C:/Program Files (x86)/Meld/Meld.exe\" \"$LOCAL\" \"$REMOTE\"
+    cmd = meld "$LOCAL" "$REMOTE"
 	trustexistcode = true
-	path = C:/Program Files (x86)/Meld/Meld.exe
 [mergetool "meld"]
-	cmd = \"C:/Program Files (x86)/Meld/Meld.exe\" \"$REMOTE\" \"$MERGED\" \"$LOCAL\"
+    cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
 	trustexistcode = true
-	path = C:/Program Files (x86)/Meld/Meld.exe
 [pull]
 	rebase = false
 [fetch]
