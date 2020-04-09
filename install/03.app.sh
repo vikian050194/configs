@@ -30,3 +30,6 @@ dpkg -i google-chrome-stable_current_amd64.deb
 
 echo "install Default OpenJDK (Java 11)"
 sudo apt install default-jdk
+
+echo "install Docker"
+wget -qO- https://get.docker.com/ | sh
