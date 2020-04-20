@@ -1,5 +1,8 @@
 alias dcb='docker-compose exec app bash'
-alias gg='cd /home/kirillv/git'
+alias dcu='docker-compose up -d'
+
+alias gg="cd /home/$USER/git"
+alias gt="cd /home/$USER/git/templates"
 
 DEFAULT=$PS1
 
