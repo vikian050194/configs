@@ -3,7 +3,7 @@
         "**/node_modules": true
     },
     "window.zoomLevel": 0,
-    "window.newWindowDimensions": "fullscreen",
+    "window.newWindowDimensions": "maximized",
     "explorer.confirmDelete": false,
     "workbench.sideBar.location": "right",
     "workbench.colorTheme": "Visual Studio Light",
