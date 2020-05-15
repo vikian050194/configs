@@ -1,5 +1,9 @@
 apt update
 
+echo "install Google Chrome"
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
 echo "install curl"
 apt install curl
 
@@ -24,12 +28,5 @@ snap install code --classic
 echo "install PyCharm CE"
 snap install pycharm-community --classic
 
-echo "install Google Chrome"
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-dpkg -i google-chrome-stable_current_amd64.deb
-
 echo "install Default OpenJDK (Java 11)"
 sudo apt install default-jdk
-
-echo "install Docker"
-wget -qO- https://get.docker.com/ | sh
