@@ -25,8 +25,11 @@ snap install node --channel=12/stable --classic
 echo "install VS Code"
 snap install code --classic
 
-echo "install PyCharm CE"
-snap install pycharm-community --classic
+echo "install Flameshot"
+sudo apt install flameshot
 
-echo "install Default OpenJDK (Java 11)"
-sudo apt install default-jdk
+# echo "install PyCharm CE"
+# snap install pycharm-community --classic
+
+# echo "install Default OpenJDK (Java 11)"
+# sudo apt install default-jdk

@@ -21,7 +21,7 @@
     "peacock.affectStatusBar": true,
     "peacock.affectTitleBar": true,
     "peacock.affectTabActiveBorder": true,
-    "peacock.surpriseMeOnStartup": true,
+    "peacock.surpriseMeOnStartup": false,
     "peacock.surpriseMeFromFavoritesOnly": true,
     "peacock.showColorInStatusBar": false,
     "peacock.elementAdjustments": {
