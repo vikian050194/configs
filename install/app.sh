@@ -5,16 +5,19 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 echo "install curl"
-apt install curl
+sudo apt install curl
+
+echo "install GNOME Tweaks"
+sudo apt-get install gnome-tweak-tool
 
 echo "install Git"
-apt install git -y
+sudo apt install git -y
 
 echo "install Meld"
-apt-get install -y meld
+sudo apt-get install -y meld
 
 echo "install snap"
-apt install snapd
+sudo apt install snapd
 
 echo "install Postman"
 snap install postman
