@@ -1,5 +1,1 @@
-gitFolder="git"
-
-cd "/home/$USER"
-mkdir "$gitFolder"
-cd "$gitFolder"
+sudo apt install git -y
