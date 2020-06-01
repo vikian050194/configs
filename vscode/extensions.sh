@@ -4,6 +4,9 @@ code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension HookyQR.beautify
 
 code --install-extension ms-python.python
+# code --install-extension ms-vscode.cpptools
+# code --install-extension ms-dotnettools.csharp
+
 code --install-extension msjsdiag.debugger-for-chrome
 # code --install-extension firefox-devtools.vscode-firefox-debug
 
