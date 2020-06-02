@@ -6,6 +6,7 @@ code --install-extension HookyQR.beautify
 code --install-extension ms-python.python
 # code --install-extension ms-vscode.cpptools
 # code --install-extension ms-dotnettools.csharp
+# code --install-extension ms-vscode.go
 
 code --install-extension msjsdiag.debugger-for-chrome
 # code --install-extension firefox-devtools.vscode-firefox-debug
