@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/env sh
 
 # NOTE: this file was modified to hide 'ok' by default, equivalent of the '-e' flag.
 # Changes marked with MODIFIED
