@@ -1,0 +1,1 @@
+rsync --archive --whole-file --verbose --cvs-exclude --filter='exclude .rsync-filter' --dry-run --delete --delete-excluded /home/kirill/git /media/data/git
