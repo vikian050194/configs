@@ -4,6 +4,8 @@ alias dcu='docker-compose up -d'
 alias gg="cd /home/$USER/git"
 alias gt="cd /home/$USER/git/templates"
 
+alias pr="sudo lsof -i -P -n | grep LISTEN"
+
 DEFAULT=$PS1
 
 #PS1="\u\$ "

@@ -1,75 +1,76 @@
 [user]
-	name = Kirill Vinogradov
-	email = vikian050194@gmail.com
+    name = Kirill Vinogradov
+    email = vikian050194@gmail.com
 [core]
-	excludesfile = /home/kirill/.gitignore_global
-	preloadindex = true
-	fscache = true
-	autocrlf = false
-	editor = nano
+    excludesfile = /home/kirill/.gitignore_global
+    preloadindex = true
+    fscache = true
+    autocrlf = false
+    editor = nano
 [color]
-	ui = true
+    ui = true
 [alias]
-	lo = log --oneline
-	lg = log --graph --decorate --oneline
-	la = log --graph --decorate --oneline --all
-	lt = log --graph --decorate --oneline -10
-	st = status -s
-	ds = diff --stat
-	ap = add -p
-	ca = commit --amend
-	cm = commit
-	ch = checkout
-	chb = "!f() { git checkout -b\"$1\"; }; f"
-	chm = checkout master
-	pu = "!f() { name=`git symbolic-ref HEAD --short`; git push --set-upstream origin $name; }; f"
-	pl = pull
-	pr = pull --rebase
-	ph = push
-	pf = push -f
-	mem = merge master
-	fmem = "!f() { git fetch origin master && git merge origin/master; }; f"
-	rem = rebase master
-	frem = "!f() { git fetch origin master && git rebase origin/master; }; f"
-	mt = mergetool
-	dt = difftool
-	cl = clean -f
-	sl = stash list
-	sd = "!f() { git stash drop \"stash@{$1}\"; }; f"
-	rhh = reset --hard HEAD
-	rh = reset --hard
-	undo = reset --soft HEAD~
-	dtp = diff HEAD~ HEAD
+    lo = log --oneline
+    lob = lo master..HEAD
+    lg = log --graph --decorate --oneline
+    la = log --graph --decorate --oneline --all
+    lt = log --graph --decorate --oneline -10
+    st = status -s
+    ds = diff --stat
+    ap = add -p
+    ca = commit --amend
+    cm = commit
+    ch = checkout
+    chb = "!f() { git checkout -b\"$1\"; }; f"
+    chm = checkout master
+    pu = "!f() { name=`git symbolic-ref HEAD --short`; git push --set-upstream origin $name; }; f"
+    pl = pull
+    pr = pull --rebase
+    ph = push
+    pf = push -f
+    mem = merge master
+    fmem = "!f() { git fetch origin master && git merge origin/master; }; f"
+    rem = rebase master
+    frem = "!f() { git fetch origin master && git rebase origin/master; }; f"
+    mt = mergetool
+    dt = difftool
+    cl = clean -f
+    sl = stash list
+    sd = "!f() { git stash drop \"stash@{$1}\"; }; f"
+    rhh = reset --hard HEAD
+    rh = reset --hard
+    undo = reset --soft HEAD~
+    dtp = diff HEAD~ HEAD
 [filter "lfs"]
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
-	required = true
+    clean = git-lfs clean %f
+    smudge = git-lfs smudge %f
+    required = true
 [push]
-	default = simple
+    default = simple
 [diff]
-	tool = meld
-	guitool = meld
+    tool = meld
+    guitool = meld
 [difftool]
-	prompt = false
+    prompt = false
 [merge]
-	tool = meld
-	guitool = meld
+    tool = meld
+    guitool = meld
 [mergetool]
-	prompt = false
-	keepBackup = false
+    prompt = false
+    keepBackup = false
 [difftool "meld"]
     cmd = meld "$LOCAL" "$REMOTE"
-	trustexistcode = true
+    trustexistcode = true
 [mergetool "meld"]
     cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
-	trustexistcode = true
+    trustexistcode = true
 [pull]
-	rebase = false
+    rebase = false
 [fetch]
-	prune = false
+    prune = false
 [rebase]
-	autoStash = false
+    autoStash = false
 [credential]
-	# helper = store --file /home/kirill/.git-credentials
-	helper = cache --timeout 30000
-	# helper = /usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring
+    # helper = store --file /home/kirill/.git-credentials
+    helper = cache --timeout 30000
+    # helper = /usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring
