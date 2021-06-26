@@ -1,7 +1,5 @@
 #!/bin/env sh
 
-# MIT license
-
 VERSION="1.0"
 DEBUG=0
 

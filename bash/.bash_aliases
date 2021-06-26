@@ -14,7 +14,7 @@ alias dcs=func_dcs
 alias act='source venv/bin/activate'
 alias dct='deactivate'
 
-alias scan='/home/$USER/git/configs/git/scan/v2.sh'
+alias scan='/home/$USER/git/configs/git/scan/scan.sh'
 
 alias gg="cd /home/$USER/git"
 alias gt="cd /home/$USER/git/templates"
