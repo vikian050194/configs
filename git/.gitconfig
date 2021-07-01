@@ -18,8 +18,10 @@
     st = status -s
     ds = diff --stat
     ap = add -p
+    cm = "!f() { git commit -m\"$1\"; }; f"
+    fx = commit -m"fix"
+    rg = commit -m"refactoring"
     ca = commit --amend
-    cm = commit
     ch = checkout
     chb = "!f() { git checkout -b\"$1\"; }; f"
     chm = checkout master
