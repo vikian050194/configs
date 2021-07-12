@@ -2,6 +2,7 @@
     "search.exclude": {
         "**/node_modules": true
     },
+    "security.workspace.trust.enabled": false,
     "window.zoomLevel": 0,
     "window.newWindowDimensions": "maximized",
     "explorer.confirmDelete": false,
@@ -11,11 +12,23 @@
     "editor.minimap.enabled": true,
     "editor.renderWhitespace": "none",
     "breadcrumbs.enabled": true,
+    "workbench.colorCustomizations": {
+        // "statusBar.background": "#20B2AA",
+        // "statusBar.foreground": "#E7E7E7",
+        // "statusBar.foreground": "#15202B",
+        "statusBar.noFolderBackground": "#808080",
+        "statusBar.noFolderForeground": "#E7E7E7",
+        "statusBar.debuggingBackground": "#DC143C",
+        "statusBar.debuggingForeground": "#E7E7E7"
+    },
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "[jsonc]": {
+    "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
     },
     "peacock.affectActivityBar": false,
     "peacock.affectStatusBar": true,
