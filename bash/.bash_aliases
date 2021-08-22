@@ -15,7 +15,6 @@ alias act='source venv/bin/activate'
 alias dct='deactivate'
 
 alias scan='/home/$USER/git/configs/git/scan/scan.sh'
-alias backup='/home/$USER/git/configs/bash/backup.sh'
 
 alias gg='cd /home/$USER/git'
 alias gt='cd /home/$USER/git/templates'
