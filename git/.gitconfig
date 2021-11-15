@@ -6,7 +6,7 @@
     preloadindex = true
     fscache = true
     autocrlf = false
-    editor = nano
+    editor = vim
 [color]
     ui = true
 [alias]

@@ -15,7 +15,7 @@ code --install-extension ms-python.python
 # code --install-extension Dart-Code.flutter
 
 # frontend debug
-code --install-extension msjsdiag.debugger-for-chrome
+# code --install-extension msjsdiag.debugger-for-chrome
 # code --install-extension firefox-devtools.vscode-firefox-debug
 
 # docker
@@ -31,9 +31,9 @@ code --install-extension svelte.svelte-vscode
 code --install-extension johnpapa.vscode-peacock
 
 # themes
-code --install-extension akamud.vscode-theme-onedark
-code --install-extension akamud.vscode-theme-onelight
-code --install-extension monokai.theme-monokai-pro-vscode
+# code --install-extension akamud.vscode-theme-onedark
+# code --install-extension akamud.vscode-theme-onelight
+# code --install-extension monokai.theme-monokai-pro-vscode
 
 
 # code --install-extension ritwickdey.LiveServer

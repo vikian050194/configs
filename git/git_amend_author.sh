@@ -3,4 +3,4 @@ NEW_EMAIL="vikian050194@gmail.com"
 
 AUTHOR="$NEW_NAME <$NEW_EMAIL>"
 
-git commit --amend --author=$AUTHOR
+git commit --amend --author="$AUTHOR"
