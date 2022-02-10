@@ -1,40 +1,64 @@
-# linting
+### linting
+
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 
-# formatting
+### formatting
+
 code --install-extension HookyQR.beautify
 # code --install-extension esbenp.prettier-vscode
 
-# languages
-code --install-extension ms-python.python
+### python
+
+# code --install-extension ms-python.python
+code --install-extension ms-python.vscode-pylance
+
 # code --install-extension ms-vscode.cpptools
 # code --install-extension ms-dotnettools.csharp
+
+### golang
+
 # code --install-extension golang.Go
+
+### dart
+
 # code --install-extension Dart-Code.dart-code
 # code --install-extension Dart-Code.flutter
 
-# frontend debug
-# code --install-extension msjsdiag.debugger-for-chrome
-# code --install-extension firefox-devtools.vscode-firefox-debug
+### java
 
-# docker
+# code --install-extension vscjava.vscode-java-pack
+# code --install-extension vscjava.vscode-java-debug
+# code --install-extension vscjava.vscode-maven
+# code --install-extension vscjava.vscode-java-test
+# code --install-extension vscjava.vscode-java-dependency
+# code --install-extension redhat.java
+
+### docker
+
 code --install-extension ms-azuretools.vscode-docker
 # code --install-extension redhat.vscode-yaml
 
+### svelte
+
 code --install-extension svelte.svelte-vscode
 
-# azure
+### azure
+
 # code --install-extension ms-azuretools.vscode-azureappservice
 # code --install-extension ms-vscode.azure-account
 
+### customization
+
 code --install-extension johnpapa.vscode-peacock
 
-# themes
+### themes
+
 # code --install-extension akamud.vscode-theme-onedark
 # code --install-extension akamud.vscode-theme-onelight
 # code --install-extension monokai.theme-monokai-pro-vscode
 
+### misc
 
 # code --install-extension ritwickdey.LiveServer
 # code --install-extension wix.vscode-import-cost
