@@ -1,20 +1,15 @@
-### linting
+### js
 
 code --install-extension dbaeumer.vscode-eslint
-code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 
-### formatting
+### html
 
-code --install-extension HookyQR.beautify
-# code --install-extension esbenp.prettier-vscode
+# code --install-extension ms-vscode.live-server
 
 ### python
 
 # code --install-extension ms-python.python
 code --install-extension ms-python.vscode-pylance
-
-# code --install-extension ms-vscode.cpptools
-# code --install-extension ms-dotnettools.csharp
 
 ### golang
 
@@ -34,14 +29,22 @@ code --install-extension ms-python.vscode-pylance
 # code --install-extension vscjava.vscode-java-dependency
 # code --install-extension redhat.java
 
+### bin/hex
+
+# code --install-extension ms-vscode.hexeditor
+
+### yaml
+
+# code --install-extension redhat.vscode-yaml
+
 ### docker
 
-code --install-extension ms-azuretools.vscode-docker
-# code --install-extension redhat.vscode-yaml
+# code --install-extension ms-azuretools.vscode-docker
+# code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools
 
 ### svelte
 
-code --install-extension svelte.svelte-vscode
+# code --install-extension svelte.svelte-vscode
 
 ### azure
 
@@ -62,3 +65,5 @@ code --install-extension johnpapa.vscode-peacock
 
 # code --install-extension ritwickdey.LiveServer
 # code --install-extension wix.vscode-import-cost
+# code --install-extension ms-vscode.cpptools
+# code --install-extension ms-dotnettools.csharp
