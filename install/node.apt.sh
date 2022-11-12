@@ -1,7 +1,7 @@
 # Node.js 16.x:
 # Using Ubuntu
-# curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-# sudo apt-get install -y nodejs
+curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt-get install -y nodejs
 
 # Using Debian, as root
 # curl -sL https://deb.nodesource.com/setup_16.x | bash -
@@ -9,8 +9,8 @@
 
 # Node.js v14.x:
 # Using Ubuntu
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-sudo apt-get install -y nodejs
+# curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+# sudo apt-get install -y nodejs
 
 # Using Debian, as root
 # curl -sL https://deb.nodesource.com/setup_14.x | bash -
