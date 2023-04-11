@@ -4,11 +4,11 @@ code --install-extension dbaeumer.vscode-eslint
 
 ### html
 
-# code --install-extension ms-vscode.live-server
+code --install-extension ms-vscode.live-server
 
 ### python
 
-# code --install-extension ms-python.python
+code --install-extension ms-python.python
 code --install-extension ms-python.vscode-pylance
 
 ### golang
@@ -31,15 +31,15 @@ code --install-extension ms-python.vscode-pylance
 
 ### bin/hex
 
-# code --install-extension ms-vscode.hexeditor
+code --install-extension ms-vscode.hexeditor
 
 ### yaml
 
-# code --install-extension redhat.vscode-yaml
+code --install-extension redhat.vscode-yaml
 
 ### docker
 
-# code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-azuretools.vscode-docker
 # code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools
 
 ### svelte
@@ -63,7 +63,7 @@ code --install-extension johnpapa.vscode-peacock
 
 ### misc
 
-# code --install-extension ritwickdey.LiveServer
 # code --install-extension wix.vscode-import-cost
 # code --install-extension ms-vscode.cpptools
 # code --install-extension ms-dotnettools.csharp
+code --install-extension ms-playwright.playwright
