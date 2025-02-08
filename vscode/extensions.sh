@@ -49,7 +49,7 @@ code --install-extension ms-azuretools.vscode-docker
 ### azure
 
 # code --install-extension ms-azuretools.vscode-azureappservice
-# code --install-extension ms-vscode.azure-account
+# code --install-extension ms-azuretools.vscode-azureresourcegroups
 
 ### customization
 
