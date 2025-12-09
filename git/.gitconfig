@@ -23,6 +23,7 @@
     rg = commit -m"refactoring"
     ca = commit --amend
     cane = commit --amend --no-edit
+    cato = "!f() { SHA=`git rev-parse \"$1\"`; git commit --fixup \"$SHA\" && GIT_SEQUENCE_EDITOR=true git rebase --interactive --autosquash \"$SHA^\"; }; f"
     ch = checkout
     chb = "!f() { git checkout -b\"$1\"; }; f"
     chm = checkout master
